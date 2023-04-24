@@ -5,7 +5,7 @@ import NightlightOutlinedIcon from '@mui/icons-material/NightlightOutlined';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import { Typography } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
-import { Discord, LifiSmallLogo } from '@transferto/shared/src/atoms/icons';
+import { Discord, CryptoFortresGSmallLogo } from '@transferto/shared/src/atoms/icons';
 import { useSettings } from '@transferto/shared/src/hooks';
 import { openInNewTab } from '@transferto/shared/src/utils/';
 import { useTranslation } from 'react-i18next';
