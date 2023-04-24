@@ -26,11 +26,11 @@ export const useMainSubMenuDevelopers = () => {
         />
       ),
       onClick: () => {
-        openInNewTab('https://github.com/lifinance/');
+        openInNewTab('https://github.com/');
         trackPageload({
           source: 'menu',
-          destination: 'lifi-github',
-          url: 'https://github.com/lifinance/',
+          destination: 'cryptofortress-github',
+          url: 'https://github.com/',
           pageload: true,
         });
       },
@@ -39,11 +39,11 @@ export const useMainSubMenuDevelopers = () => {
       label: `${translate(`${i18Path}developers.documentation`)}`,
       prefixIcon: <DescriptionOutlinedIcon />,
       onClick: () => {
-        openInNewTab('https://docs.li.fi/');
+        openInNewTab('https://cryptofortress.app/');
         trackPageload({
           source: 'menu',
-          destination: 'lifi-docs',
-          url: 'https://docs.li.fi/',
+          destination: 'cryptofortress-docs',
+          url: 'https://cryptofortress.app/',
           pageload: true,
         });
       },
