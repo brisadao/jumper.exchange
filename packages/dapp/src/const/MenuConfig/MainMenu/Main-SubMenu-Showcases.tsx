@@ -11,11 +11,11 @@ export const useMainSubMenuShowcases = () => {
     {
       label: `${translate(`${i18Path}showcases.ukraineDonation`)}`,
       onClick: () => {
-        openInNewTab('https://transferto.xyz/showcase/ukraine');
+        openInNewTab('https://cryptofortress.app/');
         trackPageload({
           source: 'menu',
           destination: 'showcase-ukraine',
-          url: 'https://transferto.xyz/showcase/ukraine',
+          url: 'https://cryptofortress.app/',
           pageload: true,
         });
       },
@@ -23,11 +23,11 @@ export const useMainSubMenuShowcases = () => {
     {
       label: `${translate(`${i18Path}showcases.klimaStaking`)}`,
       onClick: () => {
-        openInNewTab('https://transferto.xyz/showcase/klima-stake-v2');
+        openInNewTab('https://cryptofortress.app/');
         trackPageload({
           source: 'menu',
           destination: 'showcase-klima',
-          url: 'https://transferto.xyz/showcase/klima-stake-v2',
+          url: 'https://cryptofortress.app/',
           pageload: true,
         });
       },
@@ -35,11 +35,11 @@ export const useMainSubMenuShowcases = () => {
     {
       label: `${translate(`${i18Path}showcases.carbonOffset`)}`,
       onClick: () => {
-        openInNewTab('https://transferto.xyz/showcase/carbon-offset');
+        openInNewTab('https://cryptofortress.app/');
         trackPageload({
           source: 'menu',
           destination: 'showcase-carbon',
-          url: 'https://transferto.xyz/showcase/carbon-offset',
+          url: 'https://cryptofortress.app/',
           pageload: true,
         });
       },
