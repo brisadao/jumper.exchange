@@ -31,7 +31,7 @@ export const useMainMenuItems = () => {
       ) : (
         <LightModeOutlinedIcon />
       ),
-      url: 'https://github.com/lifinance/',
+      url: 'https://github.com/',
       triggerSubMenu: SubMenuKeys.themes,
     },
     {
@@ -63,11 +63,11 @@ export const useMainMenuItems = () => {
       prefixIcon: <TwitterIcon />,
       showMoreIcon: false,
       onClick: () => {
-        openInNewTab('https://twitter.com/JumperExchange');
+        openInNewTab('https://twitter.com/CryptoFortresG');
         trackPageload({
           source: 'menu',
-          destination: 'twitter-JumperExchange',
-          url: 'https://twitter.com/JumperExchange',
+          destination: 'twitter-CryptoFortresG',
+          url: 'https://twitter.com/CryptoFortresG',
           pageload: true,
         });
       },
@@ -85,17 +85,17 @@ export const useMainMenuItems = () => {
       ),
       showMoreIcon: false,
       onClick: () => {
-        openInNewTab('https://discord.gg/lifi');
+        openInNewTab('https://discord.gg/');
         trackPageload({
           source: 'menu',
-          destination: 'discord-lifi',
-          url: 'https://discord.gg/lifi',
+          destination: 'discord',
+          url: 'https://discord.gg/',
           pageload: true,
         });
       },
     },
     {
-      label: `${translate(`${i18Path}navbarMenu.aboutLIFI`)}`,
+      label: `${translate(`${i18Path}navbarMenu.aboutCryptoFortres`)}`,
       prefixIcon: (
         <LifiSmallLogo
           style={{ flexShrink: 0 }}
@@ -110,11 +110,11 @@ export const useMainMenuItems = () => {
       onClick: () => {
         trackPageload({
           source: 'menu',
-          destination: 'lifi-website',
-          url: 'https://li.fi',
+          destination: 'CryptoFortres-website',
+          url: 'https://cryptofortress.app/',
           pageload: true,
         });
-        openInNewTab('https://li.fi');
+        openInNewTab('https://cryptofortress.app/');
       },
     },
     {
